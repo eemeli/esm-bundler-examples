@@ -1,0 +1,18 @@
+{
+  "name": "webpack3-example",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "scripts": {
+    "esm": "webpack src/esm.js --output-filename esm.js",
+    "cjs": "webpack src/cjs.js --output-filename cjs.js"
+  },
+  "dependencies": {
+    "foo": "file:../foo",
+    "react": "^16.10.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.12.0"
+  }
+}

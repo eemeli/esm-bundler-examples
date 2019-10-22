@@ -1,0 +1,21 @@
+{
+  "name": "browserify-example",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "scripts": {
+    "preesm": "mkdir -p dist",
+    "esm": "browserify src/esm.js -p esmify > dist/esm.js",
+    "precjs": "mkdir -p dist",
+    "cjs": "browserify src/cjs.js -p esmify > dist/cjs.js"
+  },
+  "dependencies": {
+    "foo": "file:../foo",
+    "react": "^16.10.2"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "esmify": "^2.1.1"
+  }
+}

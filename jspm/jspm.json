@@ -1,0 +1,49 @@
+{
+  "resolve": {
+    "@jspm/core": "npm:@jspm/core@1.0.4",
+    "foo": "npm:foo@1.0.0",
+    "react": "npm:react@16.10.2"
+  },
+  "dependencies": {
+    "npm:@jspm/core@1.0.4": {
+      "source": "https://registry.npmjs.org/@jspm/core/-/core-1.0.4.tgz#sha512-HoA6n4sjAEzU3BnGQpaTPXN0tFbzTe6sGHeuF4Yr9ULsheCwnHrBFOawqK4JDWxCEZQRyuqJv0tgNHTP5eLDMw=="
+    },
+    "npm:foo@1.0.0": {
+      "source": "link:../foo/",
+      "resolve": {
+        "react": "npm:react@16.10.2"
+      }
+    },
+    "npm:js-tokens@4.0.0": {
+      "source": "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz#sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="
+    },
+    "npm:loose-envify@1.4.0": {
+      "source": "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz#sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+      "resolve": {
+        "js-tokens": "npm:js-tokens@4.0.0"
+      }
+    },
+    "npm:object-assign@4.1.1": {
+      "source": "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+    },
+    "npm:prop-types@15.7.2": {
+      "source": "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz#sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==",
+      "resolve": {
+        "loose-envify": "npm:loose-envify@1.4.0",
+        "object-assign": "npm:object-assign@4.1.1",
+        "react-is": "npm:react-is@16.10.2"
+      }
+    },
+    "npm:react-is@16.10.2": {
+      "source": "https://registry.npmjs.org/react-is/-/react-is-16.10.2.tgz#sha512-INBT1QEgtcCCgvccr5/86CfD71fw9EPmDxgiJX4I2Ddr6ZsV6iFXsuby+qWJPtmNuMY0zByTsG4468P7nHuNWA=="
+    },
+    "npm:react@16.10.2": {
+      "source": "https://registry.npmjs.org/react/-/react-16.10.2.tgz#sha512-MFVIq0DpIhrHFyqLU0S3+4dIcBhhOvBE8bJ/5kHPVOVaGdo0KuiQzpcjCPsf585WvhypqtrMILyoE2th6dT+Lw==",
+      "resolve": {
+        "loose-envify": "npm:loose-envify@1.4.0",
+        "object-assign": "npm:object-assign@4.1.1",
+        "prop-types": "npm:prop-types@15.7.2"
+      }
+    }
+  }
+}

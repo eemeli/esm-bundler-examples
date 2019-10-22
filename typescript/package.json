@@ -1,0 +1,17 @@
+{
+  "name": "typescript-example",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "scripts": {
+    "esm": "tsc"
+  },
+  "dependencies": {
+    "foo": "file:../foo",
+    "react": "^16.10.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.4"
+  }
+}

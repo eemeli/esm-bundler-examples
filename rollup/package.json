@@ -1,0 +1,20 @@
+{
+  "name": "rollup-example",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "scripts": {
+    "esm": "rollup src/esm.js -c --file dist/esm.js",
+    "cjs": "rollup src/cjs.js -c --file dist/cjs.js"
+  },
+  "dependencies": {
+    "foo": "file:../foo",
+    "react": "^16.10.2"
+  },
+  "devDependencies": {
+    "rollup": "^1.25.1",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
