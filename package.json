@@ -1,0 +1,21 @@
+{
+  "name": "esm-bundler-examples",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "devDependencies": {
+    "lerna": "^3.18.2"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "scripts": {
+    "clean": "git clean -fdxe */dist",
+    "cjs": "lerna run cjs",
+    "esm": "lerna run esm",
+    "build": "npm run cjs && npm run esm",
+    "prepare": "lerna exec npm install"
+  }
+}
