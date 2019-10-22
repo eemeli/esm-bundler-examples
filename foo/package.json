@@ -5,7 +5,7 @@
   "license": "MIT-0",
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "main": "cjs.js",
-  "module": "esm.js",
+  "module": "esm",
   "browser": "esm.js",
   "sideEffects": false
 }
