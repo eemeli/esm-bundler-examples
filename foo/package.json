@@ -1,0 +1,11 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "main": "cjs.js",
+  "module": "esm.js",
+  "browser": "esm.js",
+  "sideEffects": false
+}
