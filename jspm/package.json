@@ -9,7 +9,7 @@
   "license": "MIT-0",
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "scripts": {
-    "esm": "jspm build ./src/esm.js --external react",
+    "esm": "jspm build ./src/esm.js",
     "prepare": "jspm install file:../foo react"
   },
   "devDependencies": {
