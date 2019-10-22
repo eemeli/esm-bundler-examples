@@ -6,7 +6,9 @@
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "scripts": {
     "esm": "webpack src/esm.js --mode none --output-filename esm.js",
-    "cjs": "webpack src/cjs.js --mode none --output-filename cjs.js"
+    "cjs": "webpack src/cjs.js --mode none --output-filename cjs.js",
+    "test:cjs": "node dist/cjs",
+    "test:esm": "node dist/esm"
   },
   "dependencies": {
     "foo": "file:../foo",

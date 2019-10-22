@@ -16,6 +16,8 @@
     "cjs": "lerna run cjs",
     "esm": "lerna run esm",
     "build": "npm run cjs && npm run esm",
-    "prepare": "lerna exec npm install"
+    "prepare": "lerna exec npm install",
+    "test:cjs": "lerna run test:cjs",
+    "test:esm": "lerna run test:esm"
   }
 }

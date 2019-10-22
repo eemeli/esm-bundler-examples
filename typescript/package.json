@@ -5,7 +5,8 @@
   "license": "MIT-0",
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "scripts": {
-    "esm": "tsc"
+    "esm": "tsc",
+    "test:esm": "node dist/esm"
   },
   "dependencies": {
     "foo": "file:../foo",

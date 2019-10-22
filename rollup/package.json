@@ -6,7 +6,9 @@
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "scripts": {
     "esm": "rollup src/esm.js -c --file dist/esm.js",
-    "cjs": "rollup src/cjs.js -c --file dist/cjs.js"
+    "cjs": "rollup src/cjs.js -c --file dist/cjs.js",
+    "test:cjs": "node dist/cjs",
+    "test:esm": "node dist/esm"
   },
   "dependencies": {
     "foo": "file:../foo",

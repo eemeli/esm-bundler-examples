@@ -10,7 +10,8 @@
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "scripts": {
     "esm": "jspm build ./src/esm.js",
-    "prepare": "jspm install file:../foo react"
+    "prepare": "jspm install file:../foo react",
+    "test:esm": "node dist/esm"
   },
   "devDependencies": {
     "@jspm/core": "^1.0.4",

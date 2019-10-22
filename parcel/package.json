@@ -6,7 +6,9 @@
   "author": "Eemeli Aro <eemeli@gmail.com>",
   "scripts": {
     "esm": "parcel build src/esm.js",
-    "cjs": "parcel build src/cjs.js"
+    "cjs": "parcel build src/cjs.js",
+    "test:cjs": "node dist/cjs",
+    "test:esm": "node dist/esm"
   },
   "dependencies": {
     "foo": "file:../foo",

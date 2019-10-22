@@ -8,7 +8,9 @@
     "preesm": "mkdir -p dist",
     "esm": "browserify src/esm.js -p esmify > dist/esm.js",
     "precjs": "mkdir -p dist",
-    "cjs": "browserify src/cjs.js -p esmify > dist/cjs.js"
+    "cjs": "browserify src/cjs.js -p esmify > dist/cjs.js",
+    "test:cjs": "node dist/cjs",
+    "test:esm": "node dist/esm"
   },
   "dependencies": {
     "foo": "file:../foo",
