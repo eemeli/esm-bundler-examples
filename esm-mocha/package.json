@@ -1,0 +1,26 @@
+{
+  "name": "esm-mocha-example",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Eemeli Aro <eemeli@gmail.com>",
+  "scripts": {
+    "esm": "mocha src/esm.test.js --require esm",
+    "cjs": "mocha src/cjs.test.js",
+    "test": "mocha src/*.test.js --require esm"
+  },
+  "esm": {
+    "mainFields": [
+      "module",
+      "main"
+    ]
+  },
+  "dependencies": {
+    "foo": "file:../foo",
+    "react": "^16.10.2"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^6.2.2"
+  }
+}
